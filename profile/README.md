@@ -10,7 +10,7 @@
 [![Bluesky](https://img.shields.io/badge/Bluesky-@zk.im-blue)](https://bsky.app/profile/zk.im)
 [![Email](https://img.shields.io/badge/Email-hi@zk.im-red)](mailto:hi@zk.im)
 
-**Zero-Knowledge Messaging • Multi-Chain Seedless Wallets • Quantum-Resistant Security • No Central Dependencies**
+**Zero-Knowledge Messaging • Multi-Chain Seedless Wallets • Quantum-Resistant + Post-Quantum Security • No Mandatory Trusted Servers**
 
 </div>
 
@@ -18,12 +18,12 @@
 
 ## 🎯 Mission
 
-We are building the world's first **zero-knowledge decentralized platform** where privacy is a native property - not a bolt-on feature. Our mission is to create systems that are open, trustless, and fully user-sovereign.
+We are building **a zero-knowledge–native decentralized messaging platform** where privacy is a native property - not a bolt-on feature. Our mission is to create systems that are open, trustless, and fully user-sovereign.
 
 We believe the internet should be:
 - 🔐 **Private by Default** - Zero-knowledge architecture ensures no server-side data access
-- 🌐 **Decentralized** - No central servers, pure peer-to-peer communication
-- 🛡️ **Quantum-Resistant** - Post-quantum cryptography for future-proof security
+- 🌐 **Decentralized** - No mandatory trusted central servers; peer-to-peer by default
+- 🛡️ **Post-Quantum (asymmetric) + Quantum-Resistant (symmetric)** - Post-quantum cryptography (ML-KEM-768, ML-DSA-65) for future-proof security
 - 💳 **User-Sovereign** - Wallet-based identity with full user control
 - 🚫 **Censorship-Resistant** - Decentralized infrastructure bypasses centralized control
 
@@ -34,16 +34,17 @@ We believe the internet should be:
 ### Core Infrastructure
 
 - **🔐 Zero-Knowledge Messaging** - End-to-end encrypted P2P communication
-- **💼 Invisible Wallet** - Revolutionary zero-knowledge key management (39+ blockchains)
+- **💼 Invisible Wallet** - Zero-knowledge key management across 39+ blockchains
 - **📦 ZKIM File Format** - Three-layer encryption with privacy-preserving search
-- **🌐 ZKIM P2P** - True peer-to-peer networking without central servers
-- **🗄️ ZKIM CAS** - Content Addressable Storage with 95% deduplication
+- **🌐 ZKIM P2P** - Peer-to-peer networking without mandatory trusted servers
+- **🗄️ ZKIM CAS** - Content Addressable Storage with up to 95% deduplication
 - **🔍 Searchable Encryption** - OPRF-based privacy-preserving search
 
 ### Key Technologies
 
 - **Cryptography**: libsodium-wrappers-sumo, @noble/hashes, @noble/curves
-- **Post-Quantum**: Argon2id13, XChaCha20-Poly1305, Ed25519, X25519
+- **Post-Quantum**: ML-KEM-768 (FIPS 203), ML-DSA-65 (FIPS 204)
+- **Quantum-Resistant** (symmetric & hashing layer): Argon2id v1.3, XChaCha20-Poly1305, BLAKE3
 - **Networking**: WebRTC, Kademlia DHT, GossipSub
 - **Storage**: ZKIM CAS, Arweave integration
 - **Architecture**: Domain-Driven Design (DDD), TypeScript, Next.js
@@ -65,7 +66,7 @@ Secure, encrypted file format with three-layer encryption, integrity validation,
 **Features:**
 - 🔐 Three-layer encryption (XChaCha20-Poly1305)
 - 🔍 Privacy-preserving searchable encryption (OPRF-based)
-- ✅ Integrity validation (BLAKE3 + Ed25519)
+- ✅ Integrity validation (BLAKE3 + Ed25519/ML-DSA-65)
 - 📦 Optional compression (GZIP/Brotli)
 - ⚡ Performance monitoring
 - 🔒 Constant-time security
@@ -85,6 +86,8 @@ Secure, encrypted file format with three-layer encryption, integrity validation,
 
 ![libsodium](https://img.shields.io/badge/libsodium-SUMO-orange)
 ![BLAKE3](https://img.shields.io/badge/BLAKE3-Hash-green)
+![ML-KEM-768](https://img.shields.io/badge/ML--KEM--768-FIPS%20203-purple)
+![ML-DSA-65](https://img.shields.io/badge/ML--DSA--65-FIPS%20204-purple)
 ![WebRTC](https://img.shields.io/badge/WebRTC-P2P-blue)
 ![Arweave](https://img.shields.io/badge/Arweave-Storage-orange)
 
@@ -96,7 +99,7 @@ Secure, encrypted file format with three-layer encryption, integrity validation,
 
 <div align="center">
 
-![GitHub Repositories](https://img.shields.io/badge/Repositories-1-blue)
+![GitHub Repositories](https://img.shields.io/badge/Repositories-2+-blue)
 ![Open Source](https://img.shields.io/badge/Open%20Source-MIT-green)
 ![Language](https://img.shields.io/badge/Language-TypeScript-blue)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
@@ -107,7 +110,7 @@ Secure, encrypted file format with three-layer encryption, integrity validation,
 
 ## 👥 Team
 
-We are a collective of **cryptographers, distributed-systems engineers, and privacy researchers** shaping the world's first zero-knowledge decentralized platform.
+We are a collective of **cryptographers, distributed-systems engineers, and privacy researchers** shaping a zero-knowledge–native decentralized platform.
 
 **Expertise:**
 - Zero-Knowledge Proofs
@@ -122,13 +125,13 @@ We are a collective of **cryptographers, distributed-systems engineers, and priv
 
 ## 🌟 Key Achievements
 
-- ✅ **First zero-knowledge decentralized platform**
-- ✅ **95% storage deduplication** through ZKIM CAS
+- ✅ **Zero-knowledge–native decentralized architecture**
+- ✅ **Up to 95% storage deduplication** through ZKIM CAS
 - ✅ **Multi-chain wallet support** (39+ blockchains)
 - ✅ **Three-layer encryption architecture**
 - ✅ **Privacy-preserving search capabilities**
-- ✅ **Quantum-resistant cryptography**
-- ✅ **Zero central dependencies**
+- ✅ **Post-quantum cryptography** (ML-KEM-768, ML-DSA-65)
+- ✅ **No mandatory trusted central servers**
 
 ---
 
@@ -146,6 +149,7 @@ We are a collective of **cryptographers, distributed-systems engineers, and priv
 We welcome contributions! Please see our repository-specific contributing guidelines:
 
 - [zkim-file-format Contributing Guide](https://github.com/zkdotim/zkim-file-format/blob/main/CONTRIBUTING.md)
+- See individual repository README files for project-specific guidelines
 
 ---
 
