@@ -11,7 +11,7 @@
 [![Substack](https://img.shields.io/badge/Substack-@zkdotim-orange)](https://substack.com/@zkdotim)
 [![Email](https://img.shields.io/badge/Email-hi@zk.im-red)](mailto:hi@zk.im)
 
-**Zero-Knowledge Messaging • Multi-Chain Seedless Wallets • Quantum-Resistant Security • No Central Dependencies**
+**Zero-Knowledge Messaging • Chain-Agnostic Seedless Wallets • Quantum-Resistant Security • No Central Dependencies**
 
 </div>
 
@@ -35,7 +35,7 @@ We're exploring how the internet could be:
 ### Core Infrastructure
 
 - **🔐 Zero-Knowledge Messaging** - End-to-end encrypted P2P communication
-- **💼 Invisible Wallet** - Revolutionary zero-knowledge key management (39+ blockchains)
+- **💼 Invisible Wallet** - Chain-agnostic zero-knowledge key management
 - **📦 ZKIM File Format** - Three-layer encryption with privacy-preserving search
 - **🌐 ZKIM P2P** - True peer-to-peer networking without central servers
 - **🗄️ ZKIM CAS** - Content Addressable Storage with 95% deduplication
@@ -130,30 +130,14 @@ Production-ready, developer-friendly wrapper for NIST-standardized post-quantum 
 
 ---
 
-## 👥 Team
+## 🌟 What We've Built
 
-We are a collective of **cryptographers, distributed-systems engineers, and privacy researchers** shaping the world's first zero-knowledge decentralized platform.
-
-**Expertise:**
-- Zero-Knowledge Proofs
-- Post-Quantum Cryptography
-- Distributed Systems
-- Peer-to-Peer Networking
-- Blockchain Technology
-- Privacy-Preserving Technologies
-- Content Addressable Storage
-
----
-
-## 🌟 Key Achievements
-
-- ✅ **First zero-knowledge decentralized platform**
-- ✅ **95% storage deduplication** through ZKIM CAS
-- ✅ **Multi-chain wallet support** (39+ blockchains)
-- ✅ **Three-layer encryption architecture**
-- ✅ **Privacy-preserving search capabilities**
-- ✅ **Quantum-resistant cryptography**
-- ✅ **Zero central dependencies**
+- ✅ **Chain-agnostic wallet** - Support for multiple blockchain networks
+- ✅ **Storage efficiency** - 95% deduplication through ZKIM CAS
+- ✅ **Layered encryption** - Three-layer encryption architecture
+- ✅ **Searchable encryption** - Privacy-preserving OPRF-based search
+- ✅ **Post-quantum security** - ML-KEM-768 and ML-DSA-65 implementation
+- ✅ **Decentralized architecture** - No central dependencies
 
 ---
 
